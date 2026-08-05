@@ -1,0 +1,12 @@
+{
+  "name": "@hcroblox/rain-mail",
+  "version": "1.0.0",
+  "description": "Email tạm thời miễn phí — không cần đăng ký",
+  "main": "index.html",
+  "repository": {
+    "url": "git+https://github.com/hcroblox/Rain-Mail.git"
+  },
+  "author": "hcroblox",
+  "license": "MIT",
+  "homepage": "https://hcroblox.github.io/Rain-Mail"
+}
