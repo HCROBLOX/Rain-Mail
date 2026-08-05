@@ -1,0 +1,22 @@
+# === Tệp hệ thống & trình soạn thảo ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Tệp tạm & cấu hình cục bộ ===
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.iml
+node_modules/
+package-lock.json
+yarn.lock
+
+# === Tệp riêng ===
+.env
+.env.local
+config.local.js
