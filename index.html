@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- === SEO TIÊU ĐỀ & MÔ TẢ === -->
+    <title>Email Tạm Thời Miễn Phí | Tạo Mail Tạm Thời Ngay Lập Tức - Rain-Mail</title>
+    <meta name="description" content="Tạo email tạm thời miễn phí ngay lập tức, không cần đăng ký, tự động lưu và khôi phục khi mở lại trang. Nhận thư tức thì, bảo mật thông tin cá nhân với Rain-Mail dựa trên mail.tm.">
+    <meta name="keywords" content="email tạm thời, mail tạm thời, mail tạm, email ẩn danh, mail tạm miễn phí, tạo mail tạm, mail.tm, Rain-Mail, email tạm thời không đăng ký, hộp thư tạm thời">
+    <meta name="author" content="Rain-Mail">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- === THẺ OPEN GRAPH === -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hcroblox.github.io/Rain-Mail">
+    <meta property="og:title" content="Email Tạm Thời Miễn Phí | Tạo Mail Tạm Thời Ngay Lập Tức - Rain-Mail">
+    <meta property="og:description" content="Tạo email tạm thời miễn phí, không cần đăng ký, tự động lưu và khôi phục. Nhận thư tức thì, bảo mật thông tin cá nhân với Rain-Mail.">
+    <meta property="og:locale" content="vi_VN">
+    <meta property="og:site_name" content="Rain-Mail - Email Tạm Thời">
+    
+    <!-- === THẺ TWITTER CARD === -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://hcroblox.github.io/Rain-Mail">
+    <meta name="twitter:title" content="Email Tạm Thời Miễn Phí | Tạo Mail Tạm Thời Ngay Lập Tức">
+    <meta name="twitter:description" content="Tạo email tạm thời miễn phí, không cần đăng ký, tự động lưu và khôi phục khi mở lại trang.">
+    
+    <!-- === THÔNG TIN ĐỊA LÝ & NGÔN NGỮ === -->
+    <link rel="canonical" href="https://hcroblox.github.io/Rain-Mail">
+    <meta http-equiv="Content-Language" content="vi">
+    <meta name="geo.region" content="VN">
+    <meta name="geo.placename" content="Việt Nam">
+    
+    <!-- === BẢO MẬT & TƯƠNG THÍCH === -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#5b8cff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- === FAVICON === -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📧</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📧</text></svg>">
+    
+    <!-- === CSS === -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-main: #0f0f13; --bg-card: #1a1a22; --bg-card-hover: #22222d;
+            --bg-accent: #272733; --text-primary: #f0f0f5; --text-secondary: #a8a8b3;
+            --accent: #5b8cff; --accent-hover: #4275f0; --accent-soft: rgba(91,140,255,0.15);
+            --success: #2ed573; --danger: #ff6b6b; --warning: #ffa502; --border: #2e2e3a;
+            --shadow: 0 4px 20px rgba(0,0,0,0.35);
+            --glow: 0 0 0 1px rgba(91,140,255,0.3), 0 0 20px rgba(91,140,255,0.15);
+        }
+        body {
+            background: linear-gradient(135deg, #0f0f13 0%, #171825 100%);
+            color: var(--text-primary);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            line-height: 1.6; padding: 12px; min-height: 100vh;
+        }
+        .container { max-width: 760px; margin: 0 auto; }
+        h1 {
+            font-size: 1.8rem; text-align: center; margin: 0.5rem 0 0.6rem;
+            color: var(--accent); font-weight: 700;
+            display: flex; align-items: center; justify-content: center; gap: 10px;
+        }
+        h1 i { filter: drop-shadow(0 0 8px rgba(91,140,255,0.5)); }
+        .intro { text-align: center; color: var(--text-secondary); margin-bottom: 16px; font-size: 0.95rem; }
+        h2 { font-size: 1.1rem; margin: 0; color: #d0d0da; display: flex; align-items: center; gap: 8px; }
+        h2 i { color: var(--accent); }
+
+        .toast-container { position: fixed; top: 16px; right: 16px; z-index: 9999; display: flex; flex-direction: column; gap: 10px; max-width: 360px; }
+        .toast {
+            background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px;
+            box-shadow: var(--shadow); display: flex; align-items: flex-start; gap: 12px;
+            animation: toastIn 0.3s ease; transform-origin: top right;
+        }
+        @keyframes toastIn { from{opacity:0; transform:translateY(-10px) scale(0.95);} to{opacity:1; transform:none;} }
+        .toast.success { border-left: 3px solid var(--success); }
+        .toast.warn { border-left: 3px solid var(--warning); }
+        .toast.error { border-left: 3px solid var(--danger); }
+        .toast-icon { font-size: 1.2rem; flex-shrink: 0; margin-top: 2px; }
+        .toast.success .toast-icon { color: var(--success); }
+        .toast.warn .toast-icon { color: var(--warning); }
+        .toast.error .toast-icon { color: var(--danger); }
+        .toast-content { flex: 1; }
+        .toast-title { font-weight: 600; font-size: 0.92rem; margin-bottom: 2px; }
+        .toast-desc { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.4; }
+
+        .email-box {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: 14px; padding: 20px; margin-bottom: 16px; box-shadow: var(--shadow);
+        }
+        .email-label { font-weight: 600; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; }
+        .email-label i { color: var(--accent); }
+
+        .custom-name-row {
+            display: flex; gap: 8px; align-items: center; margin: 10px 0; flex-wrap: wrap;
+        }
+        .custom-name-input {
+            flex: 1; min-width: 140px; padding: 12px 14px; background: var(--bg-accent);
+            border: 1px solid var(--border); border-radius: 10px; color: var(--text-primary);
+            font-size: 0.95rem; font-family: Consolas, Menlo, monospace; outline: none;
+            transition: border 0.2s;
+        }
+        .custom-name-input:focus { border-color: var(--accent); }
+        .domain-text {
+            padding: 12px 10px; background: var(--bg-accent); border: 1px solid var(--border);
+            border-radius: 10px; color: var(--accent); font-size: 0.95rem; white-space: nowrap;
+        }
+        .btn-apply-name {
+            padding: 12px 14px; border: none; border-radius: 10px; background: var(--accent);
+            color: #fff; cursor: pointer; transition: all 0.2s; white-space: nowrap;
+        }
+        .btn-apply-name:hover { background: var(--accent-hover); }
+
+        .email-display-wrapper {
+            display: flex; align-items: center; gap: 8px; background: var(--bg-accent);
+            border-radius: 10px; padding: 14px 16px; margin: 10px 0; border: 1px solid var(--border);
+        }
+        .email-display { flex: 1; word-break: break-all; font-family: Consolas, Menlo, monospace; font-size: 0.95rem; color: #e8e8f0; }
+        .copy-btn {
+            background: transparent; border: none; color: var(--accent); cursor: pointer;
+            padding: 8px; font-size: 1.1rem; border-radius: 6px; transition: all 0.2s; display: flex; align-items: center; justify-content: center;
+        }
+        .copy-btn:hover { background: var(--accent-soft); }
+
+        .timer-row { display: flex; align-items: center; justify-content: space-between; margin-top: 12px; flex-wrap: wrap; gap: 12px; }
+        .timer-wrap { display: flex; flex-direction: column; gap: 4px; }
+        .timer-label { font-size: 0.85rem; color: var(--text-secondary); display: flex; align-items: center; gap: 4px; }
+        .timer {
+            font-size: 1.8rem; font-weight: 700; font-family: Consolas, Menlo, monospace;
+            padding: 8px 18px; border-radius: 10px; background: var(--bg-accent);
+            letter-spacing: 1px;
+        }
+        .timer.warning { color: var(--danger); background: rgba(255,107,107,0.1); box-shadow: 0 0 0 1px rgba(255,107,107,0.2); }
+        .auto-check { font-size: 0.85rem; color: var(--success); display: flex; align-items: center; gap: 5px; }
+
+        .btn-group { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 6px; }
+        button {
+            flex: 1; min-width: 100px; padding: 12px 10px; border: none; border-radius: 10px;
+            font-size: 0.9rem; font-weight: 500; cursor: pointer; transition: all 0.25s;
+            display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+        }
+        button:disabled { opacity: 0.4; cursor: not-allowed; transform: none !important; }
+        .btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent-hover)); color: #fff; box-shadow: 0 4px 12px rgba(91,140,255,0.25); }
+        .btn-primary:hover:not(:disabled) { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(91,140,255,0.35); }
+        .btn-secondary { background: var(--bg-accent); color: var(--text-primary); border: 1px solid var(--border); }
+        .btn-secondary:hover:not(:disabled) { background: var(--bg-card-hover); border-color: var(--accent); }
+        .btn-back { background: rgba(46,204,113,0.1); color: #2ecc71; border: 1px solid rgba(46,204,113,0.3); }
+        .btn-back:hover:not(:disabled) { background: rgba(46,204,113,0.15); }
+        .btn-danger { background: rgba(255,107,107,0.1); color: var(--danger); border: 1px solid rgba(255,107,107,0.3); }
+
+        .expired-notice {
+            text-align: center; padding: 32px 20px; color: var(--danger); border: 1px solid var(--danger);
+            border-radius: 14px; margin: 16px 0; background: rgba(255,107,107,0.06);
+        }
+        .expired-notice h3 { display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 8px; font-size: 1.1rem; }
+
+        .inbox {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: 14px; padding: 20px; box-shadow: var(--shadow);
+        }
+        .inbox-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+        .mail-count {
+            font-size: 0.82rem; background: var(--accent); color: #fff; padding: 3px 10px; border-radius: 12px;
+            font-weight: 500; display: flex; align-items: center; gap: 4px;
+        }
+
+        .email-item {
+            border-bottom: 1px solid var(--border); padding: 14px 0;
+            display: flex; align-items: center; justify-content: space-between; gap: 10px;
+            cursor: pointer; transition: background 0.15s;
+        }
+        .email-item:last-child { border-bottom: none; }
+        .email-item:hover { background: var(--bg-accent); margin: 0 -12px; padding: 14px 12px; border-radius: 8px; }
+        .email-info { flex: 1; min-width: 0; }
+        .email-sender { font-weight: 500; font-size: 0.93rem; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: flex; align-items: center; gap: 6px; }
+        .email-sender i { color: var(--accent); font-size: 0.9rem; }
+        .email-subject-preview { font-size: 0.85rem; color: var(--text-secondary); margin-top: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .email-time { font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px; display: flex; align-items: center; gap: 4px; }
+        .view-btn {
+            width: 40px; height: 40px; border-radius: 50%; border: none; background: var(--accent-soft);
+            color: var(--accent); cursor: pointer; font-size: 0.95rem; display: flex; align-items: center; justify-content: center;
+            transition: all 0.2s; flex-shrink: 0;
+        }
+        .view-btn:hover { background: var(--accent); color: #fff; }
+
+        .detail-screen {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(135deg, #0f0f13 0%, #171825 100%);
+            z-index: 999; padding: 16px; overflow-y: auto; display: none;
+            animation: slideIn 0.25s ease;
+        }
+        .detail-screen.show { display: block; }
+        @keyframes slideIn { from{opacity:0; transform:translateX(30px);} to{opacity:1; transform:translateX(0);} }
+        .detail-header { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+        .back-btn {
+            background: var(--bg-accent); border: none; color: var(--accent); width: 40px; height: 40px;
+            border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center;
+            font-size: 1rem; transition: all 0.2s; flex-shrink: 0;
+        }
+        .back-btn:hover { background: var(--accent); color: #fff; }
+        .detail-title { font-size: 1.1rem; font-weight: 600; flex: 1; }
+        .detail-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 14px; padding: 20px; box-shadow: var(--shadow); }
+        .detail-row { margin-bottom: 14px; }
+        .detail-row label { font-size: 0.85rem; color: var(--text-secondary); display: flex; align-items: center; gap: 6px; margin-bottom: 4px; }
+        .detail-row .val { font-size: 0.95rem; word-break: break-all; line-height: 1.6; }
+        .detail-body {
+            margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border);
+            white-space: pre-wrap; font-size: 0.95rem; line-height: 1.8; color: #e0e0ea;
+            word-break: break-word;
+        }
+        .empty-inbox { text-align: center; color: var(--text-secondary); padding: 40px 20px; }
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body>
+
+<div class="toast-container" id="toastContainer"></div>
+
+<div class="detail-screen" id="detailScreen">
+    <div class="detail-header">
+        <button class="back-btn" id="backBtn"><i class="fas fa-arrow-left"></i></button>
+        <div class="detail-title">Nội dung thư</div>
+    </div>
+    <div class="detail-card" id="detailContent"></div>
+</div>
+
+<div class="container" id="mainContent">
+    <header>
+        <h1><i class="fas fa-envelope-open-text"></i> Rain-Mail</h1>
+        <p class="intro">Tạo mail tạm thời miễn phí — Tự động lưu, khôi phục khi mở lại trang, nhận thư tức thì</p>
+    </header>
+
+    <main>
+    <div id="email-section" class="email-box">
+        <div class="email-label"><i class="fas fa-pen"></i> Đặt tên email tùy chỉnh</div>
+        <div class="custom-name-row">
+            <input type="text" id="customNameInput" class="custom-name-input" placeholder="tên.của.bạn" maxlength="30" aria-label="Nhập tên email tùy chỉnh">
+            <span class="domain-text" id="domainDisplay">@xxx.xx</span>
+            <button class="btn-apply-name" id="btnApplyName" aria-label="Áp dụng tên email mới"><i class="fas fa-check"></i> Áp dụng</button>
+        </div>
+
+        <div class="email-label"><i class="fas fa-at"></i> Địa chỉ email</div>
+        <div class="email-display-wrapper">
+            <span class="email-display" id="email-address">Đang khởi tạo...</span>
+            <button class="copy-btn" id="btn-copy" title="Sao chép địa chỉ email" aria-label="Sao chép email"><i class="fas fa-copy"></i></button>
+        </div>
+
+        <div class="timer-row">
+            <div class="timer-wrap">
+                <div class="timer-label"><i class="fas fa-clock"></i> Thời gian còn lại</div>
+                <div id="timer-display" class="timer">10:00</div>
+            </div>
+            <div class="auto-check"><i class="fas fa-sync-alt fa-spin"></i> Tự kiểm tra mỗi 2 giây</div>
+        </div>
+
+        <div class="btn-group">
+            <button class="btn-back" id="btnRestore" disabled aria-label="Khôi phục mail cũ"><i class="fas fa-undo"></i> Khôi phục mail cũ</button>
+            <button class="btn-primary" id="btnNewMail" aria-label="Tạo email mới"><i class="fas fa-plus-circle"></i> Tạo mail mới</button>
+            <button class="btn-secondary" id="btn-refresh" aria-label="Kiểm tra thư mới"><i class="fas fa-sync-alt"></i> Kiểm tra thư</button>
+            <button class="btn-secondary" id="btn-extend" aria-label="Thêm 10 phút sử dụng"><i class="fas fa-hourglass-end"></i> +10 phút</button>
+        </div>
+    </div>
+
+    <div id="expired-section" class="expired-notice hidden" role="alert">
+        <h3><i class="fas fa-exclamation-triangle"></i> Email đã hết hạn</h3>
+        <p>Địa chỉ email đã hết hạn. Nhấn nút dưới đây để tạo lại.</p>
+        <button class="btn-primary" id="btn-recreate" style="margin-top:12px;" aria-label="Tạo email mới khi hết hạn"><i class="fas fa-redo"></i> Tạo email mới</button>
+    </div>
+
+    <section class="inbox" id="inbox-container" aria-labelledby="inbox-heading">
+        <div class="inbox-header">
+            <h2 id="inbox-heading"><i class="fas fa-inbox"></i> Hộp thư đến</h2>
+            <span id="mail-count" class="mail-count"><i class="fas fa-envelope"></i> 0</span>
+        </div>
+        <div id="inbox-list">
+            <div class="empty-inbox"><i class="fas fa-spinner fa-spin"></i> Chưa có thư nào</div>
+        </div>
+    </section>
+    </main>
+
+    <footer style="text-align:center; margin-top:30px; padding-top:15px; border-top:1px solid var(--border); color:var(--text-secondary); font-size:0.85rem;">
+        <p>📧 Dịch vụ cung cấp bởi <strong>Rain-Mail</strong> | Tạo email tạm thời miễn phí, bảo mật & ẩn danh</p>
+        <p style="margin-top:4px;">Nguồn API: mail.tm | Trang chủ: <a href="https://hcroblox.github.io/Rain-Mail" target="_blank" rel="noopener noreferrer" style="color:var(--accent); text-decoration:none;">hcroblox.github.io/Rain-Mail</a></p>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
