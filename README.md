@@ -1,13 +1,15 @@
 <div align="center">
 
-# 🌈 <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=36&duration=3000&pause=1000&color=4FC3F7&center=true&vCenter=true&width=700&lines=Rain-Mail;Free+Temporary+Email;Private+%E2%80%A2+Fast+%E2%80%A2+Anonymous" alt="Rain-Mail"/>
+# 🌈 <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=36&duration=3000&pause=1000&color=4FC3F7&center=true&vCenter=true&width=750&lines=Rain-Mail;Free+Temporary+Email;Private+%E2%80%A2+Fast+%E2%80%A2+Anonymous" alt="Typing SVG" />
 
-<img src="https://img.shields.io/badge/Free-100%25-success?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Privacy-Anonymous-blue?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/API-mail.tm-orange?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Made%20with-HTML%20%2B%20CSS%20%2B%20JavaScript-blueviolet?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Free-100%25-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/Privacy-Anonymous-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/API-mail.tm-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/No-Ads-red?style=for-the-badge">
 
-### 📧 Email tạm thời miễn phí, ẩn danh và không cần đăng ký.
+# 📧 Rain-Mail
+
+### Email tạm thời miễn phí • Ẩn danh • Không cần đăng ký
 
 🌐 **Website:** https://hcroblox.github.io/Rain-Mail/
 
@@ -17,133 +19,129 @@
 
 # 📖 Giới thiệu
 
-**Rain-Mail** là một dịch vụ email tạm thời được xây dựng với mục tiêu mang đến trải nghiệm đơn giản, nhanh chóng và bảo vệ quyền riêng tư cho người dùng.
+**Rain-Mail** là dịch vụ email tạm thời được thiết kế để giúp bạn nhận email xác minh, OTP và đăng ký tài khoản trực tuyến mà không cần sử dụng email cá nhân.
 
-Bạn có thể tạo một địa chỉ email chỉ trong vài giây để nhận email xác minh, mã OTP hoặc đăng ký các dịch vụ trực tuyến mà không cần sử dụng email cá nhân.
-
-Toàn bộ dữ liệu được lưu trực tiếp trên trình duyệt của bạn. Website không yêu cầu đăng ký tài khoản, không thu thập thông tin cá nhân và không lưu dữ liệu người dùng trên máy chủ.
+Website hướng đến sự đơn giản, nhanh chóng và tôn trọng quyền riêng tư. Không cần tạo tài khoản, không thu thập thông tin cá nhân và không hiển thị quảng cáo.
 
 ---
 
-# ✨ Tính năng nổi bật
+# ✨ Tính năng
 
-### 📧 Tạo Email tức thì
+## 📧 Tạo email tức thì
 
-* Tạo email chỉ với một lần nhấn.
-* Không cần đăng ký tài khoản.
-* Sử dụng ngay lập tức.
+- Tạo email chỉ trong vài giây.
+- Không cần đăng ký.
+- Sử dụng ngay sau khi tạo.
 
-### ✍️ Tự đặt tên Email
+---
+
+## ✍️ Đặt tên email tùy chỉnh
 
 Bạn có thể:
 
-* Tự nhập tên email theo ý muốn.
-* Hoặc để hệ thống tạo ngẫu nhiên.
+- Tự đặt tên email theo ý muốn.
+- Hoặc tạo email ngẫu nhiên.
 
 ---
 
-### 💾 Tự động lưu Email
+## 💾 Tự động lưu
 
-* Email đang sử dụng sẽ tự động lưu trong trình duyệt.
-* Khi mở lại website, email sẽ được khôi phục ngay lập tức.
-* Không cần tạo lại.
+Email sẽ được lưu ngay trên trình duyệt.
 
----
-
-### ⏰ Gia hạn thời gian
-
-* Thời gian mặc định: **10 phút**
-* Có thể cộng thêm thời gian sử dụng.
-* Gia hạn tối đa lên đến **60 phút**.
+Khi quay lại website, Rain-Mail sẽ tự động khôi phục địa chỉ email trước đó.
 
 ---
 
-### 📨 Kiểm tra thư tự động
+## 📨 Nhận thư thời gian thực
 
-Hệ thống sẽ:
-
-* Kiểm tra hộp thư mỗi **2 giây**
-* Tự động cập nhật email mới
-* Không cần tải lại trang
+- Kiểm tra thư tự động mỗi **2 giây**
+- Không cần tải lại trang
+- Email mới hiển thị ngay khi nhận được
 
 ---
 
-### 📋 Sao chép nhanh
+## ⏰ Gia hạn thời gian
 
-Chỉ với **một cú nhấp**, bạn có thể sao chép toàn bộ địa chỉ email để sử dụng ở bất kỳ đâu.
-
----
-
-### 🌙 Giao diện hiện đại
-
-* Dark Mode mặc định
-* Thiết kế tối giản
-* Hiệu ứng mượt mà
-* Dễ sử dụng
+- Thời gian mặc định **10 phút**
+- Có thể cộng thêm thời gian
+- Tối đa **60 phút**
 
 ---
 
-### 📱 Hoạt động trên mọi thiết bị
+## 📋 Sao chép bằng một chạm
 
-✔ Android
-
-✔ iPhone
-
-✔ Tablet
-
-✔ Windows
-
-✔ macOS
-
-✔ Linux
+Chỉ cần nhấn biểu tượng sao chép để copy địa chỉ email.
 
 ---
 
-### 🔒 Quyền riêng tư
+## 🌙 Giao diện hiện đại
 
-Rain-Mail được thiết kế để hạn chế tối đa việc lưu trữ dữ liệu người dùng.
-
-* Không yêu cầu đăng ký
-* Không lưu thông tin cá nhân
-* Không lưu dữ liệu trên máy chủ
-* Dữ liệu chỉ tồn tại trong trình duyệt của bạn
+- Dark Mode
+- Thiết kế tối giản
+- Mượt mà
+- Dễ sử dụng
 
 ---
 
-### 💸 Hoàn toàn miễn phí
+## 📱 Hoạt động trên mọi thiết bị
 
-Rain-Mail:
-
-* Không thu phí
-* Không có quảng cáo
-* Không yêu cầu Premium
-* Không giới hạn số lần sử dụng trong phạm vi dịch vụ hỗ trợ
+- Android
+- iPhone
+- Tablet
+- Windows
+- macOS
+- Linux
 
 ---
 
-# 🖼️ Minh họa
+## 🔒 Bảo mật
+
+Rain-Mail được thiết kế để hạn chế tối đa việc lưu trữ dữ liệu.
+
+✔ Không cần đăng ký
+
+✔ Không lưu dữ liệu trên máy chủ
+
+✔ Dữ liệu chỉ được lưu trong trình duyệt của bạn
+
+✔ Hoàn toàn ẩn danh
+
+---
+
+## 💸 Hoàn toàn miễn phí
+
+- Không quảng cáo
+- Không thu phí
+- Không Premium
+- Không giới hạn sử dụng trong phạm vi dịch vụ hỗ trợ
+
+---
+
+# 🖼️ Giao diện Rain-Mail
 
 <p align="center">
-<img src="https://placehold.co/900x500/111827/4FC3F7?text=Rain-Mail+Preview" width="90%">
+<img src="images/preview.jpg" width="320" alt="Rain-Mail">
 </p>
 
-> Có thể thay ảnh trên bằng ảnh chụp giao diện thực tế của website.
+<p align="center">
+<i>Giao diện thực tế của Rain-Mail trên điện thoại với chế độ tối hiện đại.</i>
+</p>
 
 ---
 
 # ⚙️ Công nghệ
 
-* HTML5
-* CSS3
-* JavaScript
-* Local Storage
-* mail.tm API
+- HTML5
+- CSS3
+- JavaScript
+- Local Storage
+- mail.tm API
 
 ---
 
-# 🚀 Trải nghiệm ngay
+# 🚀 Trải nghiệm
 
-## 🌐 https://hcroblox.github.io/Rain-Mail/
+## https://hcroblox.github.io/Rain-Mail/
 
 ---
 
@@ -151,8 +149,8 @@ Rain-Mail:
 
 ## ❤️ Rain-Mail
 
-Được xây dựng với mong muốn mang đến một dịch vụ email tạm thời nhanh, miễn phí và tôn trọng quyền riêng tư của người dùng.
+Được xây dựng với mong muốn mang đến một dịch vụ email tạm thời nhanh, miễn phí và tôn trọng quyền riêng tư.
 
-⭐ Nếu bạn thấy Rain-Mail hữu ích, hãy chia sẻ với bạn bè để nhiều người cùng biết đến.
+Nếu Rain-Mail hữu ích với bạn, hãy chia sẻ cho bạn bè cùng sử dụng.
 
 </div>
